@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.create-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e5e5e5;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.actions a:hover {
+    background-color: #45a049;
+}
+.form-inline {
+    display: flex;
+    gap: 10px;
+}
+
+.json-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+}
